@@ -1,0 +1,81 @@
+/* LFMIT Plugin Styles - these styles can be overridden in your theme with specificity */
+
+li.lfmit_widget div.box
+{
+  position:relative;
+  min-height:520px;
+}
+
+li.lfmit_widget ul#lfmitPanelTabs
+{ margin-top:10px; padding: 0 10px; height:18px; background-position:top; }
+
+li.lfmit_widget ul#lfmitPanelTabs li
+{
+  display:block;
+  float:left; width:50%;
+  background:transparent url(images/tab.png);
+
+}
+
+li.lfmit_widget ul#lfmitPanelTabs li a
+{
+  display:block; padding: 3px 4px 2px;
+  background:#ccc; font-weight:bold; color:#fff;
+  text-decoration:none;
+  -moz-border-radius-topright: 6px;
+  -khtml-border-radius: 6px;
+	-webkit-border-radius: 6px;
+	border-radius: 6px;
+}
+
+li.lfmit_widget div.box div
+{
+  position:absolute;
+  top:58px;
+  left:10px; right:10px;
+  border:1px #2d83d5 solid;
+  -moz-border-radius-topright: 6px;
+  -moz-border-radius-bottomleft: 8px;
+  -khtml-border-radius: 8px;
+	-webkit-border-radius: 8px;
+	border-radius: 6px;
+}
+li.lfmit_widget ol
+{ margin:5px; }
+
+li.lfmit_widget ol li
+{ margin:0;
+  padding:4px; min-height:32px;
+  clear:left; font-size:0.8em; }
+
+li.lfmit_widget ol li a span.lfmit_track
+{ font-weight:bold; font-size:1.2em; }
+
+li.lfmit_widget ol li.odd
+{ background-color:#efe; }
+
+li.lfmit_widget ol li img
+{ float:left;
+  margin-right:5px; width:32px; }
+  
+li.lfmit_widget ol li.chartItem1 img
+{ float:left;
+  margin-right:5px; width:64px; }
+  
+li.lfmit_widget ol li.chartItem1
+{ height:64px; font-size:1.2em; }
+
+div#lfmit_footer
+{ position:relative; top:0; left:0; padding:5px 10px;
+  background-color:#2d83d5;color:#fff;
+  font-weight:bold; text-align:center;
+  -moz-border-radius-topright: 0px;
+}
+
+div#lfmit_footer a:link,div#lfmit_footer a:visited
+{ color:white; }
+
+li.lfmit_widget ul#lfmitPanelTabs li a.lfmit_sel_tab
+{ background-color:#2d83d5; }
+
+/* TODO: IE 6 Hacks */
